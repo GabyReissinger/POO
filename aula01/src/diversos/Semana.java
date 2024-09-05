@@ -11,7 +11,7 @@ public class Semana {
 		case "Quarta" -> "Dia util :(";
 		case "Quinta" -> "Dia util :(";
 		case "Sexta" -> "Dia util :(";
-		defalt -> "Dia inválido ._.";
+		default -> "Dia inválido ._.";
 		};
 		System.out.println("Resultado: " + resultado);
 	}
